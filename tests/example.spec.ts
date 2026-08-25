@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 
+//test runner-1
 test('has title', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
@@ -7,6 +8,7 @@ test('has title', async ({ page }) => {
   await expect(page).toHaveTitle(/Playwright/);
 });
 
+//test runner-2
 test('get started link', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
